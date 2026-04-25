@@ -1,0 +1,22 @@
+# Sample Run Output
+
+=== AHP RESULTS ===
+
+crypto_flex      0.4442
+governance       0.2182
+runtime          0.1313
+throughput       0.0393
+wallet           0.0835
+validator        0.0835
+
+lambda_max: 6.3160
+CI: 0.0632
+CR: 0.0510
+
+=== PQMRS RANKING ===
+
+ 1. sui          87.07
+ 2. avalanche    79.16
+ 3. ethereum     70.89
+ 4. solana       68.77
+ 5. bitcoin      45.98
