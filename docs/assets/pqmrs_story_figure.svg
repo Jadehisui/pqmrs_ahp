@@ -1,0 +1,141 @@
+<svg width="1400" height="860" viewBox="0 0 1400 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="90" y1="60" x2="1290" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F2E8"/>
+      <stop offset="0.5" stop-color="#E7F1EE"/>
+      <stop offset="1" stop-color="#D8E7F4"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0B2C3D"/>
+      <stop offset="1" stop-color="#1B5E73"/>
+    </linearGradient>
+    <linearGradient id="cardA" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFF8EE"/>
+      <stop offset="1" stop-color="#F5E3C8"/>
+    </linearGradient>
+    <linearGradient id="cardB" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F2FBF6"/>
+      <stop offset="1" stop-color="#D2EEDB"/>
+    </linearGradient>
+    <linearGradient id="cardC" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F3F7FF"/>
+      <stop offset="1" stop-color="#D6E4FF"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1600" height="1000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#173042" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto">
+      <path d="M2 2L11 7L2 12" stroke="#31566B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect width="1400" height="860" fill="url(#bg)"/>
+  <circle cx="1180" cy="124" r="160" fill="#FFF9F0" fill-opacity="0.7"/>
+  <circle cx="220" cy="760" r="190" fill="#EAF6F2" fill-opacity="0.8"/>
+  <circle cx="1320" cy="730" r="120" fill="#E4EEF9" fill-opacity="0.75"/>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="52" width="1260" height="150" rx="34" fill="url(#hero)"/>
+  </g>
+
+  <text x="120" y="118" fill="#F7F2E8" font-family="Georgia, Times New Roman, serif" font-size="42" font-weight="700">
+    From Baseline Strength to Quantum Stress
+  </text>
+  <text x="120" y="166" fill="#DDECF0" font-family="Verdana, Geneva, sans-serif" font-size="24">
+    PQMRS combines AHP weighting, blockchain readiness scoring, and time-stepped quantum attack simulation.
+  </text>
+  <text x="120" y="205" fill="#C5DBE2" font-family="Verdana, Geneva, sans-serif" font-size="21">
+    The framework does not predict the future exactly; it compares how chains behave under explicit post-quantum assumptions.
+  </text>
+
+  <g filter="url(#shadow)">
+    <rect x="88" y="268" width="282" height="430" rx="30" fill="url(#cardA)"/>
+    <rect x="406" y="268" width="282" height="430" rx="30" fill="url(#cardB)"/>
+    <rect x="724" y="268" width="282" height="430" rx="30" fill="url(#cardC)"/>
+    <rect x="1042" y="268" width="282" height="430" rx="30" fill="#FDFDFB"/>
+  </g>
+
+  <g>
+    <circle cx="150" cy="330" r="26" fill="#B56A2D"/>
+    <text x="143" y="339" fill="#FFF8EE" font-family="Verdana, Geneva, sans-serif" font-size="22" font-weight="700">1</text>
+    <text x="188" y="336" fill="#503018" font-family="Georgia, Times New Roman, serif" font-size="30" font-weight="700">Decision Priorities</text>
+    <text x="122" y="380" fill="#5D4631" font-family="Verdana, Geneva, sans-serif" font-size="22">Start with criteria that reflect</text>
+    <text x="122" y="410" fill="#5D4631" font-family="Verdana, Geneva, sans-serif" font-size="22">post-quantum migration readiness:</text>
+
+    <rect x="122" y="444" width="214" height="38" rx="18" fill="#FFF3DE"/>
+    <text x="136" y="468" fill="#6B492D" font-family="Verdana, Geneva, sans-serif" font-size="19">crypto_flex</text>
+    <rect x="122" y="494" width="184" height="38" rx="18" fill="#FFF3DE"/>
+    <text x="136" y="518" fill="#6B492D" font-family="Verdana, Geneva, sans-serif" font-size="19">governance</text>
+    <rect x="122" y="544" width="160" height="38" rx="18" fill="#FFF3DE"/>
+    <text x="136" y="568" fill="#6B492D" font-family="Verdana, Geneva, sans-serif" font-size="19">runtime</text>
+    <rect x="122" y="594" width="182" height="38" rx="18" fill="#FFF3DE"/>
+    <text x="136" y="618" fill="#6B492D" font-family="Verdana, Geneva, sans-serif" font-size="19">wallet</text>
+    <text x="122" y="666" fill="#7B6046" font-family="Verdana, Geneva, sans-serif" font-size="18">AHP converts pairwise judgments into</text>
+    <text x="122" y="691" fill="#7B6046" font-family="Verdana, Geneva, sans-serif" font-size="18">consistent criterion weights.</text>
+  </g>
+
+  <g>
+    <circle cx="468" cy="330" r="26" fill="#2F7D52"/>
+    <text x="461" y="339" fill="#F2FBF6" font-family="Verdana, Geneva, sans-serif" font-size="22" font-weight="700">2</text>
+    <text x="506" y="336" fill="#1F4D34" font-family="Georgia, Times New Roman, serif" font-size="30" font-weight="700">Baseline Ranking</text>
+    <text x="440" y="380" fill="#355842" font-family="Verdana, Geneva, sans-serif" font-size="22">Each chain receives a weighted</text>
+    <text x="440" y="410" fill="#355842" font-family="Verdana, Geneva, sans-serif" font-size="22">readiness score before any attack.</text>
+
+    <rect x="438" y="446" width="216" height="166" rx="24" fill="#FFFFFF" fill-opacity="0.88" stroke="#BCD9C4"/>
+    <text x="460" y="482" fill="#244734" font-family="Verdana, Geneva, sans-serif" font-size="20" font-weight="700">Example ranking</text>
+    <text x="460" y="522" fill="#2E5940" font-family="Verdana, Geneva, sans-serif" font-size="19">1. Sui ............. 87.07</text>
+    <text x="460" y="554" fill="#2E5940" font-family="Verdana, Geneva, sans-serif" font-size="19">2. Avalanche ... 79.16</text>
+    <text x="460" y="586" fill="#2E5940" font-family="Verdana, Geneva, sans-serif" font-size="19">3. Ethereum .... 70.89</text>
+
+    <text x="438" y="654" fill="#4A6E58" font-family="Verdana, Geneva, sans-serif" font-size="18">PQMRS = 10 x sum(w_i x s_i)</text>
+    <text x="438" y="685" fill="#4A6E58" font-family="Verdana, Geneva, sans-serif" font-size="18">This is the reference point for all</text>
+    <text x="438" y="710" fill="#4A6E58" font-family="Verdana, Geneva, sans-serif" font-size="18">later stress scenarios.</text>
+  </g>
+
+  <g>
+    <circle cx="786" cy="330" r="26" fill="#4771B2"/>
+    <text x="779" y="339" fill="#F3F7FF" font-family="Verdana, Geneva, sans-serif" font-size="22" font-weight="700">3</text>
+    <text x="824" y="336" fill="#24426F" font-family="Georgia, Times New Roman, serif" font-size="30" font-weight="700">Quantum Stress</text>
+    <text x="758" y="380" fill="#365579" font-family="Verdana, Geneva, sans-serif" font-size="22">Scenario engine applies explicit</text>
+    <text x="758" y="410" fill="#365579" font-family="Verdana, Geneva, sans-serif" font-size="22">post-quantum pressure over time.</text>
+
+    <rect x="756" y="446" width="216" height="42" rx="18" fill="#EAF0FF"/>
+    <text x="774" y="472" fill="#355988" font-family="Verdana, Geneva, sans-serif" font-size="19">Shor signature attack</text>
+    <rect x="756" y="500" width="208" height="42" rx="18" fill="#EAF0FF"/>
+    <text x="774" y="526" fill="#355988" font-family="Verdana, Geneva, sans-serif" font-size="19">Grover hash pressure</text>
+    <rect x="756" y="554" width="164" height="42" rx="18" fill="#EAF0FF"/>
+    <text x="774" y="580" fill="#355988" font-family="Verdana, Geneva, sans-serif" font-size="19">Hybrid attack</text>
+
+    <text x="758" y="646" fill="#4D6A8D" font-family="Verdana, Geneva, sans-serif" font-size="18">Inputs include key size, validator</text>
+    <text x="758" y="671" fill="#4D6A8D" font-family="Verdana, Geneva, sans-serif" font-size="18">count, upgrade latency, and PQ</text>
+    <text x="758" y="696" fill="#4D6A8D" font-family="Verdana, Geneva, sans-serif" font-size="18">migration progress.</text>
+  </g>
+
+  <g>
+    <circle cx="1104" cy="330" r="26" fill="#854D0E"/>
+    <text x="1097" y="339" fill="#FEF6EB" font-family="Verdana, Geneva, sans-serif" font-size="22" font-weight="700">4</text>
+    <text x="1149" y="336" fill="#5A3512" font-family="Georgia, Times New Roman, serif" font-size="30" font-weight="700">Resilience Story</text>
+    <text x="1076" y="380" fill="#68482A" font-family="Verdana, Geneva, sans-serif" font-size="22">Readers can see the narrative:</text>
+    <text x="1076" y="410" fill="#68482A" font-family="Verdana, Geneva, sans-serif" font-size="22">strength, stress, and drift.</text>
+
+    <polyline points="1080,585 1130,548 1180,560 1230,510 1280,470" stroke="#8E5A1A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="1080" cy="585" r="8" fill="#8E5A1A"/>
+    <circle cx="1130" cy="548" r="8" fill="#8E5A1A"/>
+    <circle cx="1180" cy="560" r="8" fill="#8E5A1A"/>
+    <circle cx="1230" cy="510" r="8" fill="#8E5A1A"/>
+    <circle cx="1280" cy="470" r="8" fill="#8E5A1A"/>
+
+    <text x="1078" y="635" fill="#765433" font-family="Verdana, Geneva, sans-serif" font-size="18">Month-by-month output shows which</text>
+    <text x="1078" y="660" fill="#765433" font-family="Verdana, Geneva, sans-serif" font-size="18">chains stay resilient and which lose</text>
+    <text x="1078" y="685" fill="#765433" font-family="Verdana, Geneva, sans-serif" font-size="18">score as quantum capability grows.</text>
+  </g>
+
+  <path d="M372 483C384 483 392 483 404 483" stroke="#31566B" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M690 483C702 483 710 483 722 483" stroke="#31566B" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M1008 483C1020 483 1028 483 1040 483" stroke="#31566B" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+
+  <rect x="88" y="734" width="1236" height="82" rx="24" fill="#FFFFFF" fill-opacity="0.68" stroke="#D8E1E6"/>
+  <text x="120" y="782" fill="#274154" font-family="Verdana, Geneva, sans-serif" font-size="24" font-weight="700">
+    Figure: PQMRS research narrative from expert weighting to dynamic post-quantum resilience comparison.
+  </text>
+</svg>

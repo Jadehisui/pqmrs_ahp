@@ -1,0 +1,42 @@
+[
+  {
+    "name": "near_term_threat",
+    "attack_type": "shor_signature",
+    "adversary_capability_qubits": 1000,
+    "start_year": 2026,
+    "duration_months": 12,
+    "migration_assumption": 0.1
+  },
+  {
+    "name": "medium_scale_attack",
+    "attack_type": "hybrid",
+    "adversary_capability_qubits": 5000,
+    "start_year": 2028,
+    "duration_months": 24,
+    "migration_assumption": 0.2
+  },
+  {
+    "name": "large_scale_shor",
+    "attack_type": "shor_signature",
+    "adversary_capability_qubits": 10000,
+    "start_year": 2030,
+    "duration_months": 36,
+    "migration_assumption": 0.3
+  },
+  {
+    "name": "grover_preimage_attack",
+    "attack_type": "grover_hash",
+    "adversary_capability_qubits": 2000,
+    "start_year": 2027,
+    "duration_months": 18,
+    "migration_assumption": 0.05
+  },
+  {
+    "name": "rapid_deployment",
+    "attack_type": "hybrid",
+    "adversary_capability_qubits": 8000,
+    "start_year": 2029,
+    "duration_months": 12,
+    "migration_assumption": 0.15
+  }
+]

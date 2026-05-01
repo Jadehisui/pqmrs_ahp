@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Bitcoin",
+    "key_size_bits": 256,
+    "hash_bits": 256,
+    "signature_scheme": "ECDSA-secp256k1",
+    "validator_count": 100000,
+    "upgrade_latency_days": 180,
+    "pq_migration_progress": 0.0
+  },
+  {
+    "name": "Ethereum",
+    "key_size_bits": 256,
+    "hash_bits": 256,
+    "signature_scheme": "ECDSA-secp256k1",
+    "validator_count": 400000,
+    "upgrade_latency_days": 90,
+    "pq_migration_progress": 0.05
+  },
+  {
+    "name": "Polkadot",
+    "key_size_bits": 256,
+    "hash_bits": 256,
+    "signature_scheme": "SR25519",
+    "validator_count": 297,
+    "upgrade_latency_days": 30,
+    "pq_migration_progress": 0.1
+  },
+  {
+    "name": "Solana",
+    "key_size_bits": 256,
+    "hash_bits": 256,
+    "signature_scheme": "Ed25519",
+    "validator_count": 1400,
+    "upgrade_latency_days": 14,
+    "pq_migration_progress": 0.02
+  },
+  {
+    "name": "Cardano",
+    "key_size_bits": 256,
+    "hash_bits": 256,
+    "signature_scheme": "Ed25519",
+    "validator_count": 3000,
+    "upgrade_latency_days": 45,
+    "pq_migration_progress": 0.08
+  }
+]

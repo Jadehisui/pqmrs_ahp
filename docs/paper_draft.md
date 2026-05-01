@@ -3,6 +3,11 @@
 ## Abstract
 We present a reproducible framework for evaluating blockchain readiness for post-quantum cryptographic migration by integrating Analytic Hierarchy Process (AHP) with a weighted readiness score (PQMRS).
 
+## Visual Story
+![PQMRS research story](assets/pqmrs_story_figure.svg)
+
+Figure 1. Research narrative for PQMRS, showing how expert weighting, baseline scoring, and quantum attack scenarios combine into a dynamic resilience comparison.
+
 ## Contributions
 1. Formal decision model with explicit criteria weighting.
 2. Consistency-validated judgments via CI/CR.
